@@ -19,9 +19,16 @@ HumanitZServer/GameServerSettings.ini
 
 - `SERVER_PORT`: porta do jogo, normalmente `7777`
 - `QUERY_PORT`: porta Steam Query, normalmente `27015`
+- `RCON_PORT`: porta TCP do RCON, normalmente `8888`, quando o RCON estiver habilitado
 
 Libere as portas necessárias em UDP e TCP conforme a configuração da hospedagem.
 
-## Observações
+## Configuração
 
-O Pelican considera o servidor iniciado quando encontra `Session created!` no console.
+O egg inclui as opções de gameplay documentadas na referência oficial do HumanitZ, incluindo host, experiência, respawn, raridade de loot, IA, clima, animais, construção, manutenção, voz, RCON e busca do servidor. Algumas chaves legadas foram mantidas para compatibilidade com versões anteriores do servidor.
+
+A referência oficial recomenda manter `SEARCH_ID` como `HumanitZ_Dedicated` para aparecer na lista pública padrão. O marcador de inicialização do Pelican é `Session created!`.
+
+## Fonte
+
+- [HumanitZ Wiki — Server Configuration Files](https://humanitz.wiki.gg/wiki/Server_Configuration_Files)

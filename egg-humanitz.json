@@ -22,7 +22,7 @@
         "Default": "./HumanitZServer/Binaries/Linux/HumanitZServer-Linux-Shipping TSSGame -log -port={{SERVER_PORT}} -queryport={{QUERY_PORT}} -steamservername=\"{{SERVER_NAME}}\""
     },
     "config": {
-        "files": "{\n    \"HumanitZServer/GameServerSettings.ini\": {\n        \"parser\": \"ini\",\n        \"find\": {\n            \"[Host Settings].ServerName\": \"{{server.environment.SERVER_NAME}}\",\n            \"[Host Settings].Password\": \"{{server.environment.PASSWORD}}\",\n            \"[Host Settings].SaveName\": \"{{server.environment.SAVE_NAME}}\",\n            \"[Host Settings].AdminPass\": \"{{server.environment.ADMIN_PASS}}\",\n            \"[Host Settings].MaxPlayers\": \"{{server.environment.MAX_PLAYERS}}\",\n            \"[Host Settings].OnlyAllowedPlayers\": \"{{server.environment.ONLY_ALLOWED_PLAYERS}}\",\n            \"[World Settings].SaveIntervalSec\": \"{{server.environment.SAVE_INTERVAL_SEC}}\",\n            \"[World Settings].NoDeathFeedback\": \"{{server.environment.NO_DEATH_FEEDBACK}}\",\n            \"[World Settings].PermaDeath\": \"{{server.environment.PERMA_DEATH}}\",\n            \"[World Settings].OnDeath\": \"{{server.environment.ON_DEATH}}\",\n            \"[World Settings].PVP\": \"{{server.environment.PVP}}\",\n            \"[World Settings].ClearInfection\": \"{{server.environment.CLEAR_INFECTION}}\",\n            \"[World Settings].EagleEye\": \"{{server.environment.EAGLE_EYE}}\",\n            \"[World Settings].AirDrop\": \"{{server.environment.AIR_DROP}}\",\n            \"[World Settings].WeaponBreak\": \"{{server.environment.WEAPON_BREAK}}\",\n            \"[World Settings].MultiplayerSleep\": \"{{server.environment.MULTIPLAYER_SLEEP}}\",\n            \"[World Settings].LootRespawn\": \"{{server.environment.LOOT_RESPAWN}}\",\n            \"[World Settings].LootRespawnTimer\": \"{{server.environment.LOOT_RESPAWN_TIMER}}\",\n            \"[World Settings].PickupRespawnTimer\": \"{{server.environment.PICKUP_RESPAWN_TIMER}}\",\n            \"[World Settings].LootRarity\": \"{{server.environment.LOOT_RARITY}}\",\n            \"[World Settings].AirDropInterval\": \"{{server.environment.AIR_DROP_INTERVAL}}\",\n            \"[World Settings].ZombieDiffHealth\": \"{{server.environment.ZOMBIE_DIFF_HEALTH}}\",\n            \"[World Settings].ZombieDiffSpeed\": \"{{server.environment.ZOMBIE_DIFF_SPEED}}\",\n            \"[World Settings].ZombieDiffDamage\": \"{{server.environment.ZOMBIE_DIFF_DAMAGE}}\",\n            \"[World Settings].HumanDifficulty\": \"{{server.environment.HUMAN_DIFFICULTY}}\",\n            \"[World Settings].ZombieAmountMulti\": \"{{server.environment.ZOMBIE_AMOUNT_MULTI}}\",\n            \"[World Settings].HumanAmountMulti\": \"{{server.environment.HUMAN_AMOUNT_MULTI}}\",\n            \"[World Settings].ZombieDogMulti\": \"{{server.environment.ZOMBIE_DOG_MULTI}}\",\n            \"[World Settings].ZombieRespawnTimer\": \"{{server.environment.ZOMBIE_RESPAWN_TIMER}}\",\n            \"[World Settings].HumanRespawnTimer\": \"{{server.environment.HUMAN_RESPAWN_TIMER}}\",\n            \"[World Settings].AnimalRespawnTimer\": \"{{server.environment.ANIMAL_RESPAWN_TIMER}}\",\n            \"[World Settings].StartingSeason\": \"{{server.environment.STARTING_SEASON}}\",\n            \"[World Settings].DaysPerSeason\": \"{{server.environment.DAYS_PER_SEASON}}\",\n            \"[World Settings].DayDur\": \"{{server.environment.DAY_DUR}}\",\n            \"[World Settings].NightDur\": \"{{server.environment.NIGHT_DUR}}\",\n            \"[World Settings].VitalDrain\": \"{{server.environment.VITAL_DRAIN}}\",\n            \"[World Settings].DogEnabled\": \"{{server.environment.DOG_ENABLED}}\",\n            \"[World Settings].DogNum\": \"{{server.environment.DOG_NUM}}\",\n            \"[World Settings].RecruitDog\": \"{{server.environment.RECRUIT_DOG}}\",\n            \"[World Settings].BuildingHealth\": \"{{server.environment.BUILDING_HEALTH}}\",\n            \"[World Settings].CompanionHealth\": \"{{server.environment.COMPANION_HEALTH}}\",\n            \"[World Settings].CompanionDmg\": \"{{server.environment.COMPANION_DMG}}\",\n            \"[World Settings].AllowDismantle\": \"{{server.environment.ALLOW_DISMANTLE}}\",\n            \"[World Settings].AllowHouseDismantle\": \"{{server.environment.ALLOW_HOUSE_DISMANTLE}}\",\n            \"[World Settings].Territory\": \"{{server.environment.TERRITORY}}\",\n            \"[World Settings].Decay\": \"{{server.environment.DECAY}}\",\n            \"[World Settings].PickupCleanup\": \"{{server.environment.PICKUP_CLEANUP}}\",\n            \"[World Settings].FakeBuildingCleanup\": \"{{server.environment.FAKE_BUILDING_CLEANUP}}\"\n        }\n    }\n}",
+        "files": "{\n    \"HumanitZServer/GameServerSettings.ini\": {\n        \"parser\": \"ini\",\n        \"find\": {\n            \"[Host Settings].ServerName\": \"{{server.environment.SERVER_NAME}}\",\n            \"[Host Settings].Password\": \"{{server.environment.PASSWORD}}\",\n            \"[Host Settings].SaveName\": \"{{server.environment.SAVE_NAME}}\",\n            \"[Host Settings].AdminPass\": \"{{server.environment.ADMIN_PASS}}\",\n            \"[Host Settings].MaxPlayers\": \"{{server.environment.MAX_PLAYERS}}\",\n            \"[Host Settings].OnlyAllowedPlayers\": \"{{server.environment.ONLY_ALLOWED_PLAYERS}}\",\n            \"[World Settings].SaveIntervalSec\": \"{{server.environment.SAVE_INTERVAL_SEC}}\",\n            \"[World Settings].NoDeathFeedback\": \"{{server.environment.NO_DEATH_FEEDBACK}}\",\n            \"[World Settings].PermaDeath\": \"{{server.environment.PERMA_DEATH}}\",\n            \"[World Settings].OnDeath\": \"{{server.environment.ON_DEATH}}\",\n            \"[World Settings].PVP\": \"{{server.environment.PVP}}\",\n            \"[World Settings].ClearInfection\": \"{{server.environment.CLEAR_INFECTION}}\",\n            \"[World Settings].EagleEye\": \"{{server.environment.EAGLE_EYE}}\",\n            \"[World Settings].AirDrop\": \"{{server.environment.AIR_DROP}}\",\n            \"[World Settings].WeaponBreak\": \"{{server.environment.WEAPON_BREAK}}\",\n            \"[World Settings].MultiplayerSleep\": \"{{server.environment.MULTIPLAYER_SLEEP}}\",\n            \"[World Settings].LootRespawn\": \"{{server.environment.LOOT_RESPAWN}}\",\n            \"[World Settings].LootRespawnTimer\": \"{{server.environment.LOOT_RESPAWN_TIMER}}\",\n            \"[World Settings].PickupRespawnTimer\": \"{{server.environment.PICKUP_RESPAWN_TIMER}}\",\n            \"[World Settings].LootRarity\": \"{{server.environment.LOOT_RARITY}}\",\n            \"[World Settings].AirDropInterval\": \"{{server.environment.AIR_DROP_INTERVAL}}\",\n            \"[World Settings].ZombieDiffHealth\": \"{{server.environment.ZOMBIE_DIFF_HEALTH}}\",\n            \"[World Settings].ZombieDiffSpeed\": \"{{server.environment.ZOMBIE_DIFF_SPEED}}\",\n            \"[World Settings].ZombieDiffDamage\": \"{{server.environment.ZOMBIE_DIFF_DAMAGE}}\",\n            \"[World Settings].HumanDifficulty\": \"{{server.environment.HUMAN_DIFFICULTY}}\",\n            \"[World Settings].ZombieAmountMulti\": \"{{server.environment.ZOMBIE_AMOUNT_MULTI}}\",\n            \"[World Settings].HumanAmountMulti\": \"{{server.environment.HUMAN_AMOUNT_MULTI}}\",\n            \"[World Settings].ZombieDogMulti\": \"{{server.environment.ZOMBIE_DOG_MULTI}}\",\n            \"[World Settings].ZombieRespawnTimer\": \"{{server.environment.ZOMBIE_RESPAWN_TIMER}}\",\n            \"[World Settings].HumanRespawnTimer\": \"{{server.environment.HUMAN_RESPAWN_TIMER}}\",\n            \"[World Settings].AnimalRespawnTimer\": \"{{server.environment.ANIMAL_RESPAWN_TIMER}}\",\n            \"[World Settings].StartingSeason\": \"{{server.environment.STARTING_SEASON}}\",\n            \"[World Settings].DaysPerSeason\": \"{{server.environment.DAYS_PER_SEASON}}\",\n            \"[World Settings].DayDur\": \"{{server.environment.DAY_DUR}}\",\n            \"[World Settings].NightDur\": \"{{server.environment.NIGHT_DUR}}\",\n            \"[World Settings].VitalDrain\": \"{{server.environment.VITAL_DRAIN}}\",\n            \"[World Settings].DogEnabled\": \"{{server.environment.DOG_ENABLED}}\",\n            \"[World Settings].DogNum\": \"{{server.environment.DOG_NUM}}\",\n            \"[World Settings].RecruitDog\": \"{{server.environment.RECRUIT_DOG}}\",\n            \"[World Settings].BuildingHealth\": \"{{server.environment.BUILDING_HEALTH}}\",\n            \"[World Settings].CompanionHealth\": \"{{server.environment.COMPANION_HEALTH}}\",\n            \"[World Settings].CompanionDmg\": \"{{server.environment.COMPANION_DMG}}\",\n            \"[World Settings].AllowDismantle\": \"{{server.environment.ALLOW_DISMANTLE}}\",\n            \"[World Settings].AllowHouseDismantle\": \"{{server.environment.ALLOW_HOUSE_DISMANTLE}}\",\n            \"[World Settings].Territory\": \"{{server.environment.TERRITORY}}\",\n            \"[World Settings].Decay\": \"{{server.environment.DECAY}}\",\n            \"[World Settings].PickupCleanup\": \"{{server.environment.PICKUP_CLEANUP}}\",\n            \"[World Settings].FakeBuildingCleanup\": \"{{server.environment.FAKE_BUILDING_CLEANUP}}\",\n            \"[Host Settings].SearchID\": \"{{server.environment.SEARCH_ID}}\",\n            \"[Host Settings].ReserveSlots\": \"{{server.environment.RESERVE_SLOTS}}\",\n            \"[Host Settings].RCONEnabled\": \"{{server.environment.RCON_ENABLED}}\",\n            \"[Host Settings].RConPort\": \"{{server.environment.RCON_PORT}}\",\n            \"[Host Settings].RCONPass\": \"{{server.environment.RCON_PASS}}\",\n            \"[Host Settings].NoJoinFeedback\": \"{{server.environment.NO_JOIN_FEEDBACK}}\",\n            \"[Host Settings].LimitedSpawns\": \"{{server.environment.LIMITED_SPAWNS}}\",\n            \"[Host Settings].UseGlobalBanList\": \"{{server.environment.USE_GLOBAL_BAN_LIST}}\",\n            \"[World Settings].XpMultiplier\": \"{{server.environment.XP_MULTIPLIER}}\",\n            \"[World Settings].RespawnTimer\": \"{{server.environment.RESPAWN_TIMER}}\",\n            \"[World Settings].LogoutTimer\": \"{{server.environment.LOGOUT_TIMER}}\",\n            \"[World Settings].MaxOwnedCars\": \"{{server.environment.MAX_OWNED_CARS}}\",\n            \"[World Settings].RarityFood\": \"{{server.environment.RARITY_FOOD}}\",\n            \"[World Settings].RarityDrink\": \"{{server.environment.RARITY_DRINK}}\",\n            \"[World Settings].RarityMelee\": \"{{server.environment.RARITY_MELEE}}\",\n            \"[World Settings].RarityRanged\": \"{{server.environment.RARITY_RANGED}}\",\n            \"[World Settings].RarityAmmo\": \"{{server.environment.RARITY_AMMO}}\",\n            \"[World Settings].RarityArmor\": \"{{server.environment.RARITY_ARMOR}}\",\n            \"[World Settings].RarityResources\": \"{{server.environment.RARITY_RESOURCES}}\",\n            \"[World Settings].RarityOther\": \"{{server.environment.RARITY_OTHER}}\",\n            \"[World Settings].HumanHealth\": \"{{server.environment.HUMAN_HEALTH}}\",\n            \"[World Settings].HumanSpeed\": \"{{server.environment.HUMAN_SPEED}}\",\n            \"[World Settings].HumanDamage\": \"{{server.environment.HUMAN_DAMAGE}}\",\n            \"[World Settings].AnimalMulti\": \"{{server.environment.ANIMAL_MULTI}}\",\n            \"[World Settings].FreeBuild\": \"{{server.environment.FREE_BUILD}}\",\n            \"[World Settings].NoBuildZone\": \"{{server.environment.NO_BUILD_ZONE}}\",\n            \"[World Settings].BuildingDecay\": \"{{server.environment.BUILDING_DECAY}}\",\n            \"[World Settings].FoodDecay\": \"{{server.environment.FOOD_DECAY}}\",\n            \"[World Settings].GenFuel\": \"{{server.environment.GEN_FUEL}}\",\n            \"[World Settings].RecycleCar\": \"{{server.environment.RECYCLE_CAR}}\",\n            \"[World Settings].Sleep\": \"{{server.environment.SLEEP}}\",\n            \"[World Settings].FreezeTime\": \"{{server.environment.FREEZE_TIME}}\",\n            \"[World Settings].MapSeg0\": \"{{server.environment.MAP_SEG0}}\",\n            \"[World Settings].MapSeg1\": \"{{server.environment.MAP_SEG1}}\",\n            \"[World Settings].MapSeg2\": \"{{server.environment.MAP_SEG2}}\",\n            \"[World Settings].Voip\": \"{{server.environment.VOIP}}\",\n            \"[World Settings].AIEvent\": \"{{server.environment.AI_EVENT}}\",\n            \"[World Settings].Weather_ClearSky\": \"{{server.environment.WEATHER_CLEAR_SKY}}\",\n            \"[World Settings].Weather_Cloudy\": \"{{server.environment.WEATHER_CLOUDY}}\",\n            \"[World Settings].Weather_Foggy\": \"{{server.environment.WEATHER_FOGGY}}\",\n            \"[World Settings].Weather_LightRain\": \"{{server.environment.WEATHER_LIGHT_RAIN}}\",\n            \"[World Settings].Weather_Rain\": \"{{server.environment.WEATHER_RAIN}}\",\n            \"[World Settings].Weather_Thunderstorm\": \"{{server.environment.WEATHER_THUNDERSTORM}}\",\n            \"[World Settings].Weather_LightSnow\": \"{{server.environment.WEATHER_LIGHT_SNOW}}\",\n            \"[World Settings].Weather_Snow\": \"{{server.environment.WEATHER_SNOW}}\",\n            \"[World Settings].Weather_Blizzard\": \"{{server.environment.WEATHER_BLIZZARD}}\"\n        }\n    }\n}",
         "startup": "{\n    \"done\": \"Session created!\"\n}",
         "logs": "{}",
         "stop": "^C"
@@ -649,6 +649,595 @@
             "description": "Time in minutes for zombies to respawn",
             "env_variable": "ZOMBIE_RESPAWN_TIMER",
             "default_value": "90",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Search ID",
+            "description": "Public server search bucket. Keep HumanitZ_Dedicated for the normal public list.",
+            "env_variable": "SEARCH_ID",
+            "default_value": "HumanitZ_Dedicated",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "string"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Reserved Slots",
+            "description": "Reserve slots for NetIDs listed in F_ReservedSlots.txt; 0 disables.",
+            "env_variable": "RESERVE_SLOTS",
+            "default_value": "0",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "RCON Enabled",
+            "description": "Enable RCON remote commands and server browser ping.",
+            "env_variable": "RCON_ENABLED",
+            "default_value": "0",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "boolean"
+            ],
+            "sort": null
+        },
+        {
+            "name": "RCON Port",
+            "description": "TCP port used by RCON.",
+            "env_variable": "RCON_PORT",
+            "default_value": "8888",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "RCON Password",
+            "description": "Password used by RCON clients.",
+            "env_variable": "RCON_PASS",
+            "default_value": "",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "nullable",
+                "string"
+            ],
+            "sort": null
+        },
+        {
+            "name": "No Join Feedback",
+            "description": "Hide player join and leave notifications from regular players.",
+            "env_variable": "NO_JOIN_FEEDBACK",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "boolean"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Limited Spawns",
+            "description": "Limit players to coast random spawns and available spawn points.",
+            "env_variable": "LIMITED_SPAWNS",
+            "default_value": "0",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "boolean"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Use Global Ban List",
+            "description": "Reject players known to be banned from official servers.",
+            "env_variable": "USE_GLOBAL_BAN_LIST",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "boolean"
+            ],
+            "sort": null
+        },
+        {
+            "name": "XP Multiplier",
+            "description": "Player experience multiplier; 1 is default.",
+            "env_variable": "XP_MULTIPLIER",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Respawn Timer",
+            "description": "Seconds before a player can respawn after death.",
+            "env_variable": "RESPAWN_TIMER",
+            "default_value": "15",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Logout Timer",
+            "description": "Seconds before logout is allowed while PVP is enabled; 0 disables.",
+            "env_variable": "LOGOUT_TIMER",
+            "default_value": "30",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Max Owned Cars",
+            "description": "Maximum number of cars a player may own.",
+            "env_variable": "MAX_OWNED_CARS",
+            "default_value": "2",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Loot Rarity - Food",
+            "description": "Loot rarity for food items: 0 scarce, 1 low, 2 default, 3 plentiful, 4 abundant.",
+            "env_variable": "RARITY_FOOD",
+            "default_value": "2",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Loot Rarity - Drink",
+            "description": "Loot rarity for drink items: 0 scarce, 1 low, 2 default, 3 plentiful, 4 abundant.",
+            "env_variable": "RARITY_DRINK",
+            "default_value": "2",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Loot Rarity - Melee",
+            "description": "Loot rarity for melee items: 0 scarce, 1 low, 2 default, 3 plentiful, 4 abundant.",
+            "env_variable": "RARITY_MELEE",
+            "default_value": "2",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Loot Rarity - Ranged",
+            "description": "Loot rarity for ranged items: 0 scarce, 1 low, 2 default, 3 plentiful, 4 abundant.",
+            "env_variable": "RARITY_RANGED",
+            "default_value": "2",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Loot Rarity - Ammo",
+            "description": "Loot rarity for ammo items: 0 scarce, 1 low, 2 default, 3 plentiful, 4 abundant.",
+            "env_variable": "RARITY_AMMO",
+            "default_value": "2",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Loot Rarity - Armor",
+            "description": "Loot rarity for armor items: 0 scarce, 1 low, 2 default, 3 plentiful, 4 abundant.",
+            "env_variable": "RARITY_ARMOR",
+            "default_value": "2",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Loot Rarity - Resources",
+            "description": "Loot rarity for resources items: 0 scarce, 1 low, 2 default, 3 plentiful, 4 abundant.",
+            "env_variable": "RARITY_RESOURCES",
+            "default_value": "2",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Loot Rarity - Other",
+            "description": "Loot rarity for other items: 0 scarce, 1 low, 2 default, 3 plentiful, 4 abundant.",
+            "env_variable": "RARITY_OTHER",
+            "default_value": "2",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Human Bandit Difficulty - Health",
+            "description": "Human bandit health difficulty: 0 very easy to 5 nightmare.",
+            "env_variable": "HUMAN_HEALTH",
+            "default_value": "2",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Human Bandit Difficulty - Speed",
+            "description": "Human bandit speed difficulty: 0 very easy to 5 nightmare.",
+            "env_variable": "HUMAN_SPEED",
+            "default_value": "2",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Human Bandit Difficulty - Damage",
+            "description": "Human bandit damage difficulty: 0 very easy to 5 nightmare.",
+            "env_variable": "HUMAN_DAMAGE",
+            "default_value": "2",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Animal Spawn Multiplier",
+            "description": "Animal spawn count multiplier.",
+            "env_variable": "ANIMAL_MULTI",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Free Build",
+            "description": "Experimental: allow certain buildables without foundations.",
+            "env_variable": "FREE_BUILD",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "boolean"
+            ],
+            "sort": null
+        },
+        {
+            "name": "No Build Zone",
+            "description": "Prevent building in restricted zones.",
+            "env_variable": "NO_BUILD_ZONE",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "boolean"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Building Decay",
+            "description": "Real days for player-built buildings to fully decay; 0 disables.",
+            "env_variable": "BUILDING_DECAY",
+            "default_value": "7",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Food Decay",
+            "description": "Food decay multiplier; 0 disables, 1 is default.",
+            "env_variable": "FOOD_DECAY",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Generator Fuel Multiplier",
+            "description": "Generator fuel consumption multiplier; 1 is default.",
+            "env_variable": "GEN_FUEL",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Claimed Car Recycle",
+            "description": "Real days before a claimed car is recycled; 0 disables.",
+            "env_variable": "RECYCLE_CAR",
+            "default_value": "14",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Sleep Deprivation",
+            "description": "Enable sleep deprivation effects.",
+            "env_variable": "SLEEP",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "boolean"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Freeze Time",
+            "description": "Freeze time while the server is empty.",
+            "env_variable": "FREEZE_TIME",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "boolean"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Map Segment 0",
+            "description": "Map spawn grid segment 0; leave default unless tuning performance.",
+            "env_variable": "MAP_SEG0",
+            "default_value": "12",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Map Segment 1",
+            "description": "Map spawn grid segment 1; leave default unless tuning performance.",
+            "env_variable": "MAP_SEG1",
+            "default_value": "20",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Map Segment 2",
+            "description": "Map spawn grid segment 2; leave default unless tuning performance.",
+            "env_variable": "MAP_SEG2",
+            "default_value": "60",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Voice Chat",
+            "description": "Enable in-game voice chat.",
+            "env_variable": "VOIP",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "boolean"
+            ],
+            "sort": null
+        },
+        {
+            "name": "AI Events",
+            "description": "AI event frequency: 0 disabled, 1 low, 2 default, 3 high, 4 insane.",
+            "env_variable": "AI_EVENT",
+            "default_value": "2",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Weather - Clear Sky",
+            "description": "Weather occurrence weight for clear sky; the season still limits available weather.",
+            "env_variable": "WEATHER_CLEAR_SKY",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Weather - Cloudy",
+            "description": "Weather occurrence weight for cloudy; the season still limits available weather.",
+            "env_variable": "WEATHER_CLOUDY",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Weather - Foggy",
+            "description": "Weather occurrence weight for foggy; the season still limits available weather.",
+            "env_variable": "WEATHER_FOGGY",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Weather - Light Rain",
+            "description": "Weather occurrence weight for light rain; the season still limits available weather.",
+            "env_variable": "WEATHER_LIGHT_RAIN",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Weather - Rain",
+            "description": "Weather occurrence weight for rain; the season still limits available weather.",
+            "env_variable": "WEATHER_RAIN",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Weather - Thunderstorm",
+            "description": "Weather occurrence weight for thunderstorm; the season still limits available weather.",
+            "env_variable": "WEATHER_THUNDERSTORM",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Weather - Light Snow",
+            "description": "Weather occurrence weight for light snow; the season still limits available weather.",
+            "env_variable": "WEATHER_LIGHT_SNOW",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Weather - Snow",
+            "description": "Weather occurrence weight for snow; the season still limits available weather.",
+            "env_variable": "WEATHER_SNOW",
+            "default_value": "1",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": [
+                "required",
+                "numeric"
+            ],
+            "sort": null
+        },
+        {
+            "name": "Weather - Blizzard",
+            "description": "Weather occurrence weight for blizzard; the season still limits available weather.",
+            "env_variable": "WEATHER_BLIZZARD",
+            "default_value": "1",
             "user_viewable": true,
             "user_editable": true,
             "rules": [
